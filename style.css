@@ -1,0 +1,34 @@
+body{
+	font-family: monospace;
+  font-size: 60px;
+	color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.middle{
+  	display: flex;
+    flex: 10;
+    flex-direction: row;
+}
+
+header,footer, nav, main, aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,footer{
+  flex: 1;
+  background-color: #20B2AA;
+}
+
+nav,aside{
+  flex: 1;
+  background-color: #FFA07A;
+}
+
+main{
+  flex: 3;
+}
